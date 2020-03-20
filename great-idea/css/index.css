@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+
+/* Navbar Style */
+
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+}
+
+nav.navbar .nav-links .nav-item{
+	margin: 10px 30px;
+	text-decoration: none;
+	color: #C0C0C0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav.navbar .nav-links .nav-item:hover {
+	color: #000000;
+}
+
+h2 {
+	color: #052869;
+}
+
+/* Presentation */
+
+div.wrapper {
+	display: flex;
+	margin: 70px 0;
+	width: 100%;
+}
+
+div.presentation {
+	width: 65%;
+}
+
+div.presentation h1 {
+text-align: center;
+font-size: 120px; 
+color: #052869;
+}
+
+.wrapper img {
+	width: 50%;
+}
+
+button {
+	height: 40px;
+	width: 200px;
+	/* border: 1px solid black; */
+	margin: 0 180px;
+	font-size: 20px;
+	background: #0a7926;
+	border-radius: 25px;
+	color: #fff;
+}
+
+button:hover {
+	background: #55f07c;
+	color: #000000;
+}
+
+/* Main Info */
+
+main.info {
+	display: flex;
+}
+
+#features, #about{
+	width: 50%;
+	margin: 40px 5px;
+}
+
+#features h2, #about h2 {
+	font-size: 24px;
+}
+
+#features p, #about p {
+	font-size: 24px;
+}
+
+/* Main Image */
+
+div.main-image img.middle-img {
+	display: flex;
+	width: 100%;
+}
+
+/* Main Section: "More info" */
+
+main.more-info {
+	display: flex;
+}
+
+#services, #product, #vision {
+	width: 33%;
+	margin: 40px 20px 40px 0;
+}
+
+#services h2, #product h2, #vision h2 {
+	font-size: 24px;
+}
+
+#services p, #product p, #vision p {
+	font-size: 24px;
+}
+
+hr {
+	height: 3px;
+	background-color: #000000;
+}
+
+/* Style for Section "Class-Info" */
+
+.contact-info h2{
+	font-size: 24px;
+	margin-top: 50px;
+	}
+	
+	.contact-info p {
+		font-size: 20px;
+	}
+	
+	#cellphone {
+		margin: 20px 0;
+	}
+	
+	section.contact-info p.copyright {
+		text-align: center;
+		margin-top: 100px 0;
+		font-size: 15px;
+		font-weight: bold;
+	}
