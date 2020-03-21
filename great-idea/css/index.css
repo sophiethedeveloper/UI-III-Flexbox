@@ -116,6 +116,11 @@ color: #052869;
 	width: 50%;
 }
 
+#title {
+	display: block;
+}
+
+
 button {
 	height: 40px;
 	width: 200px;
