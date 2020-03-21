@@ -97,7 +97,8 @@ div.main-picture img.services-header-img{
 }
 
 nav.navbar img.logo {
-    margin: 0 0 0 142px;
+	margin: 0 0 0 142px;
+	/* width: 20%; */
 }
 div.presentation{
     margin-bottom: 40px;
@@ -117,12 +118,16 @@ hr {
 
 
 section.main-information h2, section.main-information p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .digital-design, .digital-marketing, .ux-ui, .web-development, .ios-development, .android-development {
     border: 1px solid #000000;
-    padding: 2%;
+	/* padding: 2%; */
+	height: 250px;
+	width: 510px;
+	margin: 40px 0 20px 0;
+	padding: 18px;
 }
 
 section.main-information button {
@@ -130,11 +135,53 @@ section.main-information button {
     width: 150px;
     border-radius: 5px;
     border: 1px solid #000000;
-    margin: 30px 0 10px 0;
+    margin: 18px 0 15px 0;
 }
+
+section.main-information button:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
 
 div.services {
     display: flex;
-    flex-flow: row wrap;
-    width: 40%;
+	flex-flow: row wrap;
+	/* width: 50%; */
+	justify-content: space-between;
+}
+
+/* Section: "More-Info" */
+
+section.more-info {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0 70px 0;
+}
+
+section.more-info div.facts {
+	width: 500px;
+}
+
+section.more-info div.facts h2, section.more-info div.facts p {
+	font-size: 20px;
+	line-height: 1.5rem;
+}
+
+section.more-info div.facts ol {
+	list-style: square;
+	font-size: 20px;
+	margin: 20px;
+	line-height: 2rem;
+}
+
+section.more-info img.services-info-img {
+	width: 510px;
+}
+
+footer p.copyright {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 120px 0 80px 0;
 }
